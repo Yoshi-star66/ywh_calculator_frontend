@@ -1,0 +1,42 @@
+<view class="container">
+  <view class="title">简易计算器</view>
+
+  <view class="screen-wrap">
+    <view class="screen">{{screen}}</view>
+  </view>
+
+  <view class="btn-group">
+    <view class="row">
+      <view class="btn gray" data-val="C" bindtap="tapBtn">C</view>
+      <view class="btn gray" data-val="DEL" bindtap="tapBtn">DEL</view>
+      <view class="btn orange" data-val="/" bindtap="tapBtn">÷</view>
+      <view class="btn orange" data-val="*" bindtap="tapBtn">×</view>
+    </view>
+
+    <view class="row">
+      <view class="btn" data-val="7" bindtap="tapBtn">7</view>
+      <view class="btn" data-val="8" bindtap="tapBtn">8</view>
+      <view class="btn" data-val="9" bindtap="tapBtn">9</view>
+      <view class="btn orange" data-val="-" bindtap="tapBtn">−</view>
+    </view>
+
+    <view class="row">
+      <view class="btn" data-val="4" bindtap="tapBtn">4</view>
+      <view class="btn" data-val="5" bindtap="tapBtn">5</view>
+      <view class="btn" data-val="6" bindtap="tapBtn">6</view>
+      <view class="btn orange" data-val="+" bindtap="tapBtn">+</view>
+    </view>
+
+    <view class="row">
+      <view class="btn" data-val="1" bindtap="tapBtn">1</view>
+      <view class="btn" data-val="2" bindtap="tapBtn">2</view>
+      <view class="btn" data-val="3" bindtap="tapBtn">3</view>
+      <view class="btn orange" data-val="=" bindtap="tapBtn">=</view>
+    </view>
+
+    <view class="row">
+      <view class="btn zero" data-val="0" bindtap="tapBtn">0</view>
+      <view class="btn" data-val="." bindtap="tapBtn">.</view>
+    </view>
+  </view>
+</view>
